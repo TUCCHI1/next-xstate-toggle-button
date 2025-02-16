@@ -1,7 +1,7 @@
 'use client'
 
-import { toggleMachine } from "@/machines/toggle-machine"
-import { useMachine } from "@xstate/react"
+import { toggleMachine } from "@/machines/toggle-machine";
+import { useMachine } from "@xstate/react";
 import { Power } from "lucide-react";
 
 export const ToggleButton = () => {
